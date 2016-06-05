@@ -5,12 +5,10 @@
 requirejs.config({
   baseUrl: 'assets/scripts/lib',
   paths: {
-    app: '../app',
-    ext: '../ext',
     jquery: 'jquery-min',
     lodash: 'lodash.core'
   }
 });
 
-//Load application logic
+//Load application
 requirejs(['../app/main']);
